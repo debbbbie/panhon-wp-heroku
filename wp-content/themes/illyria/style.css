@@ -140,10 +140,10 @@ nav li a:hover {
   
 }
 
-nav  li + li {
+/*nav  li + li {
     background:url('images/lists-dot2.png') no-repeat 0px 10px;
     padding-left: 20px
-}
+}*/
 
 .children li {
     background: none;
