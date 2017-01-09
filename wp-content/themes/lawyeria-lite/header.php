@@ -67,7 +67,7 @@
 			<div class="wrapper cf">
 			    <nav>
     				<div class="openresponsivemenu">
-    					<?php _e('Open Menu','lawyeria-lite'); ?>
+    					<?php _e('菜单','lawyeria-lite'); ?>
     				</div><!--/div .openresponsivemenu-->
     				<div class="container-menu cf">
         				<?php
