@@ -1,7 +1,15 @@
 /* nav */
 #sidebar-right ul.menu>li.menu-item>ul.sub-menu>li.menu-item-type-post_type{
-  margin-left: 25px;
+  padding-left: 25px;
 }
+
+@media only screen and (max-width: 768px) {
+    .widget_nav_menu{
+        display: none;
+    }
+}
+
+
 
 .panhon-red{
     color: #990000;
