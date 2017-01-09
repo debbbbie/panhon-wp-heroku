@@ -1,5 +1,5 @@
 /* nav */
-#sidebar-right ul.menu>ul.sub-menu>li.menu-item-type-post_type{
+#sidebar-right ul.menu>li.menu-item>ul.sub-menu>li.menu-item-type-post_type{
   margin-left: 25px;
 }
 
