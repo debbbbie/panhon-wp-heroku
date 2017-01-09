@@ -3,13 +3,19 @@
   padding-left: 25px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-device-width: 768px) {
     .widget_nav_menu{
         display: none;
+    }
+    #subheader .subheader-color .full-header-content{
+        margin: initial;
     }
 }
 
 
+#subheader .subheader-color .full-header-content{
+    width: initial !important;
+}
 
 .panhon-red{
     color: #990000;
