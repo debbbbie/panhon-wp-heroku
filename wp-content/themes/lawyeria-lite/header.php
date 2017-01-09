@@ -12,17 +12,19 @@
 		<meta http-equiv="<?php echo get_template_directory_uri();?>/content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 		<meta charset="UTF-8">
 		<title><?php wp_title('|', true, 'right'); ?></title>
-     <meta content="debbbbie" name="author" />
-		 <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-		 <link href="/wp-content/uploads/2017/01/logo.png" rel="apple-touch-icon" sizes="64x64" type="image/png" />
-		 <link href="/wp-content/uploads/2017/01/logo.png" rel="icon" sizes="64x64" type="image/png" />
+        <meta content="debbbbie" name="author" />
+		<link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+		<link href="/wp-content/uploads/2017/01/logo.png" rel="apple-touch-icon" sizes="64x64" type="image/png" />
+		<link href="/wp-content/uploads/2017/01/logo.png" rel="icon" sizes="64x64" type="image/png" />
 
 		<!--[if lt IE 9]>
 		<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
 		<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/ie.css" type="text/css">
-		<![endif]-->	
+		<![endif]-->
 
 		<?php wp_head(); ?>
+        <link rel='stylesheet' id='debbbbie-style-css' href='/css/debbbbie.css' type='text/css' media='all'/>
+
 	</head>
 	<body <?php body_class(); ?>>
 		<header>
