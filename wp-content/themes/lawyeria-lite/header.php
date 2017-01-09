@@ -12,7 +12,6 @@
 		<meta http-equiv="<?php echo get_template_directory_uri();?>/content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 		<meta charset="UTF-8">
 		<title><?php wp_title('|', true, 'right'); ?></title>
-		<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
      <meta content="debbbbie" name="author" />
 		 <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 		 <link href="/favicon.ico" rel="apple-touch-icon" sizes="64x64" type="image/png" />
