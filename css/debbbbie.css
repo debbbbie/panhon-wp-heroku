@@ -10,9 +10,6 @@
     #subheader .subheader-color .full-header-content{
         margin: initial;
     }
-    #subheader .second-subheader h3{
-        margin: initial;
-    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -20,9 +17,6 @@
         display: none;
     }
     #subheader .subheader-color .full-header-content{
-        margin: initial;
-    }
-    #subheader .second-subheader h3{
         margin: initial;
     }
 }
@@ -33,6 +27,7 @@
 }
 #subheader .second-subheader h3{
     color: #990000 !important;
+    margin: initial;
 }
 
 .panhon-red{
