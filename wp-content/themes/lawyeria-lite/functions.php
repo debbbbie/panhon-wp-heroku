@@ -100,7 +100,7 @@ function lawyeria_lite_slug_fonts_url() {
             'subset' => urlencode( 'latin,latin-ext' ),
         );
  
-        $fonts_url = add_query_arg( $query_args, '//fonts.googleapis.com/css' );
+        $fonts_url = add_query_arg( $query_args, '/google/css.css' );
     }
  
     return $fonts_url;
