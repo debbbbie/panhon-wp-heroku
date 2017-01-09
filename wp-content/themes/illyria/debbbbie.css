@@ -1,3 +1,8 @@
+/* nav */
+#sidebar-right ul.menu>ul.sub-menu>li.menu-item-type-post_type{
+  margin-left: 25px;
+}
+
 .panhon-red{
     color: #990000;
 }
