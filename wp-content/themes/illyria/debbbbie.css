@@ -16,6 +16,9 @@
 #subheader .subheader-color .full-header-content{
     width: initial !important;
 }
+#subheader .second-subheader h3{
+    color: #990000;
+}
 
 .panhon-red{
     color: #990000;
