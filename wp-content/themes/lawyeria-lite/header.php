@@ -27,7 +27,7 @@
 
 	</head>
 	<body <?php body_class(); ?>>
-		<header>
+		<header><div class="wrap-elements">
 			<div class="wide-header">
 				<div class="wrapper cf">
 					<div class="header-left cf">
@@ -90,3 +90,5 @@
 						<img src="<?php header_image(); ?>" alt="" class="lawyeria-lite-header-image" />
 				<?php endif; ?>
 			</div>	
+		</div>
+		
