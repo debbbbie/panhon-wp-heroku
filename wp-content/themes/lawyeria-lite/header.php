@@ -23,7 +23,7 @@
 		<![endif]-->
 
 		<?php wp_head(); ?>
-        <link rel='stylesheet' id='debbbbie-style-css' href='/css/debbbbie.css' type='text/css' media='all'/>
+        <link rel='stylesheet' id='debbbbie-style-css' href='/wp-content/css/debbbbie.css' type='text/css' media='all'/>
 
 	</head>
 	<body <?php body_class(); ?>>
