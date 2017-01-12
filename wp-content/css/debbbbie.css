@@ -64,13 +64,14 @@ img.qiyewenhua4{
 }
 
 .tag {
+  font-size:22px;
   background: #eee;
   border-radius: 3px 0 0 3px;
-  color: #999;
+  color: #F5821E;
   display: inline-block;
-  height: 26px;
+  height: 36px;
   width: 50%;
-  line-height: 26px;
+  line-height: 36px;
   padding: 0 20px 0 23px;
   position: relative;
   margin: 0 10px 10px 0;
@@ -87,14 +88,14 @@ img.qiyewenhua4{
   left: 10px;
   position: absolute;
   width: 6px;
-  top: 10px;
+  top: 16px;
 }
 
 .tag::after {
   background: #fff;
-  border-bottom: 13px solid transparent;
+  border-bottom: 18px solid transparent;
   border-left: 10px solid #eee;
-  border-top: 13px solid transparent;
+  border-top: 18px solid transparent;
   content: '';
   position: absolute;
   right: 0;
