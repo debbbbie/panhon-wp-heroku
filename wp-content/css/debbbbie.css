@@ -77,7 +77,6 @@ img.qiyewenhua4{
   margin: 0 10px 10px 0;
   text-decoration: none;
   -webkit-transition: color 0.2s;
-  cursor: pointer;
 }
 
 .tag::before {
@@ -90,7 +89,6 @@ img.qiyewenhua4{
   position: absolute;
   width: 6px;
   top: 16px;
-  cursor: pointer;
 }
 
 .tag::after {
@@ -102,14 +100,13 @@ img.qiyewenhua4{
   position: absolute;
   right: 0;
   top: 0;
-  cursor: pointer;
 }
 
-.tag:hover {
+/*.tag:hover {
   background-color: crimson;
   color: white;
 }
 
 .tag:hover::after {
    border-left-color: crimson; 
-}
+}*/
