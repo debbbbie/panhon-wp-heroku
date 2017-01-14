@@ -3,16 +3,16 @@
   padding-left: 25px;
 }
 
+.wrap-elements {
+    z-index: 1;
+}
+
 @media only screen and (max-device-width: 768px) {
     .widget_nav_menu{
         display: none;
     }
     #subheader .subheader-color .full-header-content{
         margin: initial;
-    }
-
-    #subheader .subheader-color {
-        height: 630px !important;
     }
 }
 
@@ -22,10 +22,6 @@
     }
     #subheader .subheader-color .full-header-content{
         margin: initial;
-    }
-
-    #subheader .subheader-color {
-        height: 630px !important;
     }
 }
 
