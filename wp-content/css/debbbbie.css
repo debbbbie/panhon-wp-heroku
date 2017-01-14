@@ -10,6 +10,10 @@
     #subheader .subheader-color .full-header-content{
         margin: initial;
     }
+
+    #subheader .subheader-color {
+        height: 630px !important;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -18,6 +22,10 @@
     }
     #subheader .subheader-color .full-header-content{
         margin: initial;
+    }
+
+    #subheader .subheader-color {
+        height: 630px !important;
     }
 }
 
