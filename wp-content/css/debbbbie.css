@@ -114,3 +114,43 @@ img.qiyewenhua4{
 .tag:hover::after {
    border-left-color: crimson; 
 }*/
+
+
+.tagl {
+  font-size:22px;
+  background: #F5821E;
+  border-radius: 3px 0 0 3px;
+  color: white;
+  display: inline-block;
+  height: 36px;
+  width: 80%;
+  line-height: 36px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+
+.tagl::before {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+  /*content: '';*/
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  width: 6px;
+  top: 16px;
+}
+
+.tagl::after {
+  background: white;
+  border-bottom: 18px solid transparent;
+  border-left: 15px solid #F5821E;
+  border-top: 18px solid transparent;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+}
