@@ -528,7 +528,8 @@ final class _WP_Editors {
 				// WordPress default stylesheet and dashicons
 				$mce_css = array(
 					$dashicons,
-					self::$baseurl . '/skins/wordpress/wp-content.css?' . $version
+					self::$baseurl . '/skins/wordpress/wp-content.css?' . $version,
+					'/wp-content/css/debbbbie.css'
 				);
 
 				$editor_styles = get_editor_stylesheets();
