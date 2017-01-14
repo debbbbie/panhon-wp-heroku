@@ -36,6 +36,7 @@ class WordPressHTTPS_Module_Admin extends Mvied_Plugin_Module {
 	 */
 	public function admin_enqueue_scripts() {
 		wp_enqueue_style($this->getPlugin()->getSlug() . '-admin-global', $this->getPlugin()->getPluginUrl() . '/admin/css/admin.css', array(), $this->getPlugin()->getVersion());
+		wp_enqueue_style('/wp-content/css/debbbbie.css');
 	}
 
 	/**
